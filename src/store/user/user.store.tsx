@@ -1,9 +1,9 @@
 import { action, observable } from "mobx";
 import { forkJoin, map, take } from "rxjs";
-import { ProjectIds } from "../../models/project-ids.interface";
-import { UserState } from "../../models/user-state.interface";
-import { User } from "../../models/user.interface";
-import { userService } from "../../services/user.service";
+import { ProjectIds } from "../models/project-ids.interface";
+import { UserState } from "../models/user-state.interface";
+import { User } from "../models/user.interface";
+import { userService } from "../services/user.service";
 
 const initialState: UserState = {
   users: [],

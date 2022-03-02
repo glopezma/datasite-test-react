@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+## Instructions to run the app
+
+- in the apps root directory, type `npm i`
+- next type `npm start`
+- You will see all the data on the screen
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
